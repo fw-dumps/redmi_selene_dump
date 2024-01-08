@@ -1,0 +1,9 @@
+on property:sys.gsensorcali.trigger=1
+    start gsensorcalisvc
+
+service gsensorcalisvc /vendor/bin/nusensors -w calibration -t g
+    class main
+    user root
+    disabled
+    oneshot
+    group root system

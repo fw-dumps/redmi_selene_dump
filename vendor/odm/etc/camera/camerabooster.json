@@ -1,0 +1,8 @@
+{
+    "version": "1.0",
+    "product": "selene",
+    "support": {
+            "lmkd_cammode_enable": false,
+            "adj_swap_support": true
+        }
+}
